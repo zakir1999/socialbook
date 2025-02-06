@@ -97,8 +97,6 @@ nav{
     position: sticky;
     top:70px;
     align-self:flex-start;
-
-
 }
 .main-content{
     flex-basis: 47%;
@@ -333,9 +331,64 @@ nav{
     font-size: 13px;
     color:gray;
 }
-.post-constain{
+.post-text{
     color:black;
     margin: 15px 0;
     font-size: 15px;
 
+}
+.post-text span{
+    color: #626262;
+    font-weight: 500;
+}
+
+.post-text a{
+    color: #1876f2;
+    text-decoration: none;
+}
+.post-image{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.post-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity-icons div img{
+    width: 18px;
+    margin-right: 10px;
+}
+.activity-icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.post-profile-icon{
+    display: flex;
+    align-items: center;
+}
+.post-profile-icon img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.post-row a{
+    color: #626262;
+}
+.footer{
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0;
+}
+.load-more-button{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
 }
