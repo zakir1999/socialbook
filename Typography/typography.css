@@ -1,0 +1,13 @@
+body{
+    padding: 25%;
+    font-size: 2rem;
+    color:purple;
+}
+/* input, button{
+    font:inherit;
+} */
+p{
+    text-transform: uppercase;
+    text-align: left;
+    text-indent: 2em;
+}
