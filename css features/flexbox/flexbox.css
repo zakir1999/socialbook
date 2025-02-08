@@ -1,0 +1,19 @@
+body{
+    min-height: 800px;
+    display: flex;
+    border: 8px solid black;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.box{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: #0071ff;
+    font-size: 40pt;
+    justify-content: center;
+    align-items: center;
+    
+
+}
