@@ -1,0 +1,32 @@
+body{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.block{
+    width: 9vw;
+    height: 9vw;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+.left{
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+p{
+    margin-left: 120px;
+}
+.right{
+    float: right;
+    margin-left:2rem;
+    margin-right: 1rem;
+}
+section{
+    background-color: rgb(26, 128, 107);
+    border: 1px solid #333;
+    padding: 1rem;
+    /*overflow: auto ;*/
+    display: flow-root;
+}
